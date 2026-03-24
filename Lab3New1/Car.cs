@@ -52,7 +52,7 @@ namespace Lab3New1
             get => gasvol;
             set
             {
-                if (value > 0)
+                if (value > 0 && value<=Tankvol)
                 gasvol = value;
             }
         }
